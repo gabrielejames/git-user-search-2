@@ -1,0 +1,185 @@
+.results {
+ 
+  margin-top: 40px;
+  background-color: #fefbe9;
+  border-radius: 25px;
+  padding: 20px;
+  
+}
+
+h1 {
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+
+.App {
+  background-color: #e1eedd;
+}
+.search-bar {
+  width: 40%;
+  
+}
+.search {
+  background-color: #fefbe9;
+  border-radius: 25px;
+  padding: 30px;
+  width: 70vw;
+
+    position: absolute;
+    top:10%;
+    bottom: 10%;
+    left: 0%;
+    right: 0%;
+    
+    margin: auto;
+}
+
+#img-top {
+  max-width: 70%;
+  border-radius: 25px;
+  margin-left: 30px;
+  
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.search-img {
+  margin-top: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+}
+
+h3 {
+  color: #f0a04b;
+  margin: 10px;
+}
+
+.repo-info h3 {
+  color:#183a1d !important
+}
+
+h1 {
+  color: #183a1d;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.info-text {
+  margin-top: 20px;
+  color: #f0a04b;
+  font-size: medium;
+ 
+}
+
+.profile-img {
+  padding-left: 30px;
+  max-width: 50%;
+  margin: 10px;
+  border-radius: 50%;
+  
+}
+
+.basic-info p {
+  font-size: large;
+  margin: 0;
+  padding-left: 50px;
+  color: #183a1d;
+  font-weight: bolder;
+  
+
+}
+
+.search-results {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+  
+}
+
+.project-details {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.repo-info p {
+  font-size:small;
+  margin: 5px;
+  
+  
+
+}
+
+.repo-info h5 {
+  color:#f0a04b
+}
+
+.date  {
+  font-size: small !important;
+}
+
+.commit-info li {
+  font-size: small;
+  margin: 5px;
+  padding-left: 10px;
+  color: darkgreen
+}
+
+.btn-external {
+  background-color: #f0a04b;
+  border: none;
+  margin: 5px;
+}
+
+.external {
+  color:#f0a04b
+}
+
+.btn-internal {
+  background-color: #f0a04b;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.main {
+  background-color: #e1eedd;
+  height:100vh
+}
+
+.internal {
+  max-width: 15% !important;
+  position: absolute;
+  background-color: #68d388;
+  border: none;
+    
+    left: 0%;
+    right: 0%;
+    
+    margin: auto;
+}
+
+
+.card {
+
+  margin:  5px;
+  
+  position: absolute;
+  top:10%;
+  bottom: 10%;
+  left: 0%;
+  right: 0%;
+  
+  
+}
+
+.search-img {
+  width: 100%;
+ 
+}
