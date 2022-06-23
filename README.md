@@ -9,7 +9,7 @@ The project demonstrates my understanding of using express and react to build an
 Download the repo to your local directory. 
 In the terminal navigate to the project directory, then to the server. Here you will need to begin by installing various packages using the following commands: 
 
-$ npm i helmet express
+$ npm i helmet express node-fetch
 
 Then start the server: 
 
