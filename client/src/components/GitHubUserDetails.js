@@ -62,7 +62,7 @@ export class GitHubUserDetails extends React.Component {
         if(error){
             return (<div className="main">
                 <h1 className="text-center">Something went wrong</h1>
-                <a href='/'><button className="internal">Go back to search</button></a>
+                <a href='/'><h3 className="text-center">Go back to search</h3></a>
                 </div>)
         } else if (!userFound) {
             return (<div className="main"><h1 className="text-center">loading...</h1></div>)
@@ -71,7 +71,7 @@ export class GitHubUserDetails extends React.Component {
             <div className="main">  
 
                 <h1 className="text-center">GitHub details for {user.login} </h1>
-                <a href='/'><button className="internal">Go back to search</button></a>
+                <a href='/'><h3 className="text-center">Go back to search</h3></a>
 
                 <Container className="results">
                     <Row className="text-center">
