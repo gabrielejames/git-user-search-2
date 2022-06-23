@@ -1,8 +1,9 @@
-//const { response } = require('express');
-const express = require('express')
+import express from 'express'
 const app = express()
 const PORT = process.env.PORT || 3001;
-const helmet = require("helmet");
+import helmet from 'helmet';
+import fetch from 'node-fetch';
+
 app.use(helmet());
 
 //function to fetch gitHub user information 
