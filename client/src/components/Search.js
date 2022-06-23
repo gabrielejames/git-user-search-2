@@ -95,7 +95,9 @@ export class Search extends React.Component {
 
         return (
             <div className="main">  
+            
                 <Container className="search">
+                <h1 className="text-center">Git Username Search</h1>
 
                     <Row>
                         <h2 className="text-center">Enter a username </h2>       
