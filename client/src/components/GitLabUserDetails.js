@@ -50,7 +50,7 @@ class GitLabUserDetails extends React.Component {
         return (
         <div className="main">
             <h1 className="text-center">Something went wrong</h1>
-            <a href='/'><button className="internal">Go back to search</button></a>
+            <a href='/'><h3 className="text-center">Go back to search</h3></a>
         </div>
       )} else if (!isLoaded) {
         return (
@@ -60,7 +60,7 @@ class GitLabUserDetails extends React.Component {
         )
       } else return (
           <div className="main">  
-              <a href='/'><button className="internal">Go back to search</button></a>
+              <a href='/'><h3 className="text-center">Go back to search</h3></a>
           <Container className="results">
             
             <Row className="text-center head">  
